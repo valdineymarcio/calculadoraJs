@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Valdiney</title>
+    <link rel="stylesheet" href="css/botoes.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="css/historico.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/historico.js"></script>
+    <script type="module" src="js/calculos.js"></script>
+    <script type="module" src="js/sequencia.js"></script>
+    <script type="module" src="js/expressao.js"></script>
+</head>
+<body>
+
+<section class="calculadora">
+    <input type="text" id="resultado" name="resultado" placeholder="resultado" readonly><a href="history.html"
+                                                                                           id="history"></a>
+    <input type="text" id="expressao" name="expressao" placeholder="expressão">
+    <br>
+    <div class="botoes">
+        <button class="bt" id="sete" value="7">7</button>
+        <button class="bt" id="oito" value="8">8</button>
+        <button class="bt" id="nove" value="9">9</button>
+        <button class="bt" id="menos" value="-">-</button>
+        <br>
+        <button class="bt" id="quatro" value="4">4</button>
+        <button class="bt" id="cinco" value="5">5</button>
+        <button class="bt" id="seis" value="6">6</button>
+        <button class="bt" id="mais" value="+">+</button>
+        <br>
+        <button class="bt" id="um" value="1">1</button>
+        <button class="bt" id="dois" value="2">2</button>
+        <button class="bt" id="tres" value="3">3</button>
+        <button class="bt" id="vezes" value="*">*</button>
+        <br>
+        <button class="bt" id="zero" value="0">0</button>
+        <button class="bt" id="dividido" value="/">/</button>
+        <button class="bt" id="limpar" value="limpar">C</button>
+        <br>
+        <button class="bt" id="parEsq" value="(">(</button>
+        <button class="bt" id="parDir" value=")">)</button>
+        <br>
+
+    </div>
+</section>
+
+<section class="historico" id="hist">
+    <h1>Histórico: </h1>
+
+</section>
+</body>
+</html>

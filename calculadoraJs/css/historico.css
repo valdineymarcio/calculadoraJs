@@ -1,0 +1,21 @@
+@media only screen and (min-device-width: 0 ) and (max-device-width: 899px) {
+    .historico{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 900px) {
+    .historico{
+        width: 23%;
+        float: right;
+        background-color: white;
+        margin-top: -40%;
+
+    }
+    .historico button{
+        width: auto;
+        border: none;
+    }
+
+
+}

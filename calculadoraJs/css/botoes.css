@@ -1,0 +1,42 @@
+button:hover{
+    background-color: lightgray;
+}
+button:active{
+    background-color: rgb(255, 255, 0);
+    color: white;
+}
+.botoes{
+    text-align: center;
+    margin-top: 10%;
+}
+#zero{
+    width: 49%;
+}
+#limpar{
+    width: 20%;
+}
+@media only screen and (min-device-width: 0) and (max-device-width:899px) {
+    button{
+        background-color: white;
+        border-radius: 5px;
+        width:23%;
+        height:50px;
+        margin-top: 15px;
+        font-family: pacifico;
+        font-size: 5vw;
+    }
+
+
+}
+@media only screen and (min-device-width: 900px) {
+    button{
+        background-color: white;
+        border-radius: 5px;
+        width:23%;
+        height:45px;
+        margin-top: 15px;
+        font-family: pacifico;
+        font-size: 2vw;
+    }
+
+}
